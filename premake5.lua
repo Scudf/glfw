@@ -45,6 +45,7 @@ project "GLFW"
 	filter "system:windows"
 		systemversion "latest"
 		staticruntime "On"
+		toolset "v143"
 
 		files
 		{
